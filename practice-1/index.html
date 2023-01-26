@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Калькуляторы фигур на JavaScript</title>
+</head>
+<body>
+    <h2>Задача №1</h2>
+    
+    <div class="container">
+        <h3>Площадь и периметр квадрата</h3>
+        <div class="square"></div>
+        <p>Введите длину стороны в см:</p>
+        <div>
+            <input type="number" class="lengthSquare">
+            <button class="btnSq">Вычислить</button>
+        </div>
+        <p class="resultSquare"></p>
+    </div>
+
+    <h2>Задача №2</h2>
+
+    <div class="container">
+        <h3>Площадь и периметр прямоугольника</h3>
+        <div class="rectangle"></div>
+        <div class="field">
+            <label>Ширина в см:</label>
+            <input type="number" class="num1Rectangle">
+        </div>
+        <div class="field">
+            <label>Высота в см:</label>
+            <input type="number" class="num2Rectangle">
+        </div>
+        <button class="btnRec">Вычислить</button>
+        <p class="resultRectangle"></p>
+    </div>
+
+    <h2>Задача №3</h2>
+
+    <div class="container">
+        <h3>Площадь круга и длина окружности</h3>
+        <div class="circle"></div>
+        <p>Введите диаметр в см:</p>
+        <div>
+            <input type="number" class="diameterCircle">
+            <button class="btnCircle">Вычислить</button>
+        </div>
+        <p class="resultCircle"></p>
+    </div>
+
+    <h2>Задача №4</h2>
+
+    <div class="container">
+        <h3>Площадь треугольника по трем сторонам</h3>
+        <svg class="triangle" width="55" height="55">
+            <polygon points="5,50 25,5 50,50"></polygon>
+        </svg>
+        <div class="field">
+            <label>Сторона А в см:</label>
+            <input type="number" class="sideA">
+        </div>
+        <div class="field">
+            <label>Сторона B в см:</label>
+            <input type="number" class="sideB">
+        </div>
+        <div class="field">
+            <label>Сторона С в см:</label>
+            <input type="number" class="sideC">
+        </div>
+        <button class="btnTriangle">Вычислить</button>
+        <p class="resultTriangle"></p>
+    </div>
+    
+    <script src="project.js"></script>
+</body>
+</html>
