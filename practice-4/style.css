@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.inputNumber {
+    margin: 5px;
+}
+
+.btn {
+    margin: 5px;
+}

@@ -1,0 +1,51 @@
+.container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    height: 280px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center; 
+}
+
+.inputWrapper {
+    margin: 20px auto;
+    display: block;
+}
+
+button {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btnDivisor {
+    width: 100px;
+    margin-right: 20px;
+    float: right;
+}
+
+.divident {
+    margin-bottom: 10px;   
+    width: 100px;
+    margin-left: 20px;
+}
+
+input {
+    width: 50px;
+}

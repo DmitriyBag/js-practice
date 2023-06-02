@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+
+    height: 280px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+textarea {
+	resize: none;
+	width: 300px;
+	height: 100px;
+}

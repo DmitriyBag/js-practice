@@ -1,0 +1,18 @@
+.right {
+	border: 2px solid green;
+}
+.wrong {
+	border: 2px solid red;
+}
+
+#button {
+    margin-top: 20px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}

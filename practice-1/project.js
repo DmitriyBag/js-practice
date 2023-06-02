@@ -38,9 +38,6 @@ let btnTriangle = document.querySelector('.btnTriangle');
 let resultTriangle = document.querySelector('.resultTriangle');
 
 btnTriangle.addEventListener('click', function() {
-    let perimetr = +sideA.value + +sideB.value + +sideC.value;
-    let halfPerimetr = (perimetr) / 2;
-    console.log(perimetr);
-    console.log(halfPerimetr);
+    let halfPerimetr = (+sideA.value + +sideB.value + +sideC.value) / 2;
     resultTriangle.innerHTML = `Площадь (примерно): ${Math.round(Math.sqrt(halfPerimetr * (halfPerimetr - sideA.value) * (halfPerimetr - sideB.value) * (halfPerimetr - sideC.value)))} см<sup>2</sup>`;
 })

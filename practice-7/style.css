@@ -1,0 +1,30 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dateList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#dateList li {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.left, .right {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.marker {
+    background-color: rgb(228, 108, 108);
+}
+
